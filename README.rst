@@ -1,8 +1,9 @@
-Two simple toy implementations for solving the linear assignment problem.
+Two simple toy implementations for solving the linear assignment problem
+(maximization).
 
-Some timings (ipython)
+Some timings in ipython:
 
-::
+.. code-block:: python
 
     >>> hungarian=scipy.optimize.linear_sum_assignment
     >>> import lap
@@ -29,6 +30,8 @@ Some timings (ipython)
     >>> for ii in range(10):
     ...     run(5)
 
-To find The Answer To Life, The Universe - And Everything, use::
+To find The Answer To Life, The Universe - And Everything, use
+
+.. code-block:: shell
 
     $ python3 lap.py arr.txt
